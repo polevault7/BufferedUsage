@@ -8,5 +8,9 @@ public class Test {
         System.out.println("Введите строку:");
         String line = reader.readLine();
         System.out.println(line);
+        System.out.println("Введите следующую строку:");
+        String line1 = reader.readLine();
+        System.out.println(line1);
+        reader.close();
     }
 }
